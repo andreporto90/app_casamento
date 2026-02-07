@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-[#f9f7f2] text-warm-700 antialiased;
+}
+
+.flower-corner {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  opacity: 0.35;
+}
+
+.flower-top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.flower-top-right {
+  top: -20px;
+  right: -20px;
+  transform: scaleX(-1);
+}
+
+.flower-bottom-left {
+  bottom: -20px;
+  left: -20px;
+  transform: scaleY(-1);
+}
+
+.flower-bottom-right {
+  bottom: -20px;
+  right: -20px;
+  transform: scale(-1, -1);
+}
+
+.sage-gradient {
+  background: radial-gradient(circle at top, rgba(138, 159, 109, 0.2), transparent 60%);
+}
