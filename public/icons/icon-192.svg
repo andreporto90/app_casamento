@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="48" fill="#f9f7f2" />
+  <circle cx="96" cy="96" r="60" fill="#8a9f6d" opacity="0.2" />
+  <text x="96" y="110" text-anchor="middle" font-family="Playfair Display, serif" font-size="48" fill="#6e8157">A&J</text>
+</svg>
